@@ -38,7 +38,7 @@ function SideBar(props) {
             <div className='space-y-2 grayhover'>
                 <div className='flex items-center space-x-2 '> <IoHomeOutline /> <span>Home</span></div>
                 <div className='flex items-center space-x-2 '><SiYoutubeshorts /><span>Shorts</span></div>
-                <div className='flex items-center space-x-2 '> <MdOutlineSubscriptions />Subscriptions</div>
+                <div className='flex items-center space-x-2 '> <MdOutlineSubscriptions /><span>Subscriptions</span></div>
 
             </div>
             <hr className='border-gray-800' />
