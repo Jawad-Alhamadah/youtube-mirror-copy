@@ -14,8 +14,7 @@ function VideoCard(props) {
             <Link to={`/video/${props.video.id}`} className='min-w-[200px] max-lg:w-[54%] w-[39%] rounded-2xl overflow-hidden'
 
             >
-                <img className='scale-125 w-[100%] aspect-video overflow-hidden rounded-lg' src={props.video.snippet.thumbnails.high.url}
-                > </img>
+                <img className='scale-125 w-[100%] aspect-video overflow-hidden rounded-lg' src={props.video.snippet.thumbnails.high.url}/> 
 
             </Link>
 

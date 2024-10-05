@@ -197,7 +197,7 @@ function SingleVideo() {
 
                                     <Link to={`/video/${r.items[0].id}`}  >
                                         <img className=' object-cover w-[100%] h-[100%]' src={r.items[0].snippet.thumbnails.high.url}
-                                        > </img>
+                                        /> 
                                     </Link>
 
                                 </div>
